@@ -7,10 +7,10 @@
 .divAll{
     display: flex;
     align-items: start;
-    justify-content: end;
+    justify-content: center;
     gap: 101px;
 
-    width: 1218px;
+    width: 1210px;
     
 }
 
