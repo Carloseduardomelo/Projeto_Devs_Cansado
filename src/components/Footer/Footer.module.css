@@ -146,4 +146,34 @@
 
 .Contact {
   width: 258px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.ContactTitle{
+    color: #292f36;
+
+    font-family: DM Serif Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+}
+
+.ContactDiv{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    color: #4d5053;
+  
+    font-family: "Jost";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 300%;
+    letter-spacing: 0.22px;
 }

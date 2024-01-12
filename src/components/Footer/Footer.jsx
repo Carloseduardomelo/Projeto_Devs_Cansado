@@ -47,11 +47,13 @@ const Footer = () => {
         </div>
       </section>
 
-      <section>
-        <p>Contact</p>
-        <p>55 East Birchwood Ave. Brooklyn, New York 11201</p>
-        <p>contact@selhono.com</p>
-        <p>(123) 456 - 7890</p>
+      <section className={style.Contact}>
+        <p className={style.ContactTitle}>Contact</p>
+        <div className={style.ContactDiv}>
+          <p className={}>55 East Birchwood Ave. Brooklyn, New York 11201</p>
+          <p>contact@selhono.com</p>
+          <p>(123) 456 - 7890</p>
+        </div>
       </section>
     </div>
   );
