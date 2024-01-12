@@ -10,6 +10,7 @@ const Footer = () => {
     <div className={style.divAll}>
       <section className={style.sectionLink}>
         <section className={style.selhono}>
+          <p>ewrwer</p>
           <img src={casa} alt="logo da casa." />
           <p className={style.selhonoTitle}>Selhono</p>
         </section>
