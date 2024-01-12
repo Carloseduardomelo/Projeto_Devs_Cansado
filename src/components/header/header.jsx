@@ -1,5 +1,5 @@
 import Logo from "../../assets/logo.svg";
-import Search from "../../assets/search.svg";
+import Search from "../../assets/Search.svg";
 
 import MobalMenu from "../MobalMenu/MobalMenu";
 
