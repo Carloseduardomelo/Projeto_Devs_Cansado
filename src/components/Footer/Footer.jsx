@@ -43,7 +43,6 @@ const Footer = () => {
           <p>Living Area</p>
           <p>Bathrcom</p>
           <p>Dinning Hall</p>
-          jgyu
           <p>Bedroom</p>
         </div>
       </section>
