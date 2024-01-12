@@ -8,7 +8,7 @@ import instagram from "../../assets/insta.svg"
 const Footer = () => {
   return (
     <div className={style.divAll}>
-      <section>
+      <section className={style.sectionLink}>
         <section className={style.selhono}>
           <img src={casa} alt="logo da casa." />
           <p>Selhono</p>
@@ -17,7 +17,7 @@ const Footer = () => {
           It is a long established fact that a reader will be distracted
           lookings.
         </p>
-        <section>
+        <section className={style.icons}>
           <img src={face} alt="" />
           <img src={t} alt="" />
           <img src={linktin} alt="" />
@@ -25,7 +25,7 @@ const Footer = () => {
         </section>
       </section>
 
-      <section>
+      <section className={style.pages}>
         <p>Pages</p>
         <p>About Us</p>
         <p>Our Projects</p>
@@ -33,7 +33,7 @@ const Footer = () => {
         <p>Contac Us</p>
         <p>Services</p>
       </section>
-      <section>
+      <section className={style.Services}>
         <p>Services</p>
         <p>Kitchan</p>
         <p>Living Area</p>
