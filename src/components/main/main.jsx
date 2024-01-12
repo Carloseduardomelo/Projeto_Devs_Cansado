@@ -1,11 +1,11 @@
 import Header from "../header/header";
-import styled from "./main.module.css";
+import style from "./main.module.css";
 
 const Main = () => {
     return (
         <div>
             <Header />
-            <h1 className={styled.mainTitle}>Main</h1>
+            <h1 className={style.mainTitle}>Main</h1>
         </div>
     );
 };
