@@ -1,51 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;1,600&display=swap");
+
 .my_footer {
-    width: 100%;
-    color: blue;
+  width: 100%;
+  color: blue;
 }
 
+.divAll {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 101px;
 
-.divAll{
+  width: 1210px;
+}
+
+.inproviso {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.sectionLink {
+  width: 393px;
+  height: 188px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 31px;
+}
+
+.selhono {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: left;
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.selhonoTitle {
+  height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-transform: uppercase;
+
+  color: #292f36;
+  font-family: "DM Serif Text", serif "Playfair Display";
+  font-size: 40px;
+  font-weight: 600;
+
+  line-height: 25px;
+}
+
+.established {
+  text-align: left;
+
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+
+  line-height: 33px;
+  letter-spacing: 0.22px;
+
+  font-family: "Jost";
+
+  color: #4d5053;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 54px;
+}
+
+.pages {
+  width: 125px;
+
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pagesTitle {
+  color: #292f36;
+
+  font-family: DM Serif Display;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+}
+
+.pagesDiv {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  color: #4d5053;
+
+  font-family: "Jost";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 300%;
+  letter-spacing: 0.22px;
+}
+
+.Services {
+  width: 120px;
+}
+.ServicesTitle {
+  color: #292f36;
+
+  font-family: DM Serif Display;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+}
+.ServicesDiv {
     display: flex;
     align-items: start;
     justify-content: center;
-    gap: 101px;
-
-    width: 1210px;
-    
+    flex-direction: column;
+    color: #4d5053;
+  
+    font-family: "Jost";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 300%;
+    letter-spacing: 0.22px;
 }
 
-.sectionLink{
-    width: 393px;
-}
-
-.selhono{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 10px;
-
-    text-align: left;
-}
-
-.established{
-    text-align: left;
-}
-
-.icons{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 54px;
-}
-
-.pages{
-    width: 125px;
-}
-
-.Services{
-    width: 120px;
-}
-
-.Contact{
-    width: 258px;
+.Contact {
+  width: 258px;
 }

@@ -1,4 +1,4 @@
-import Search from "../../assets/search.svg";
+import Search from "../../assets/Search.svg";
 import style from "./MobalMenu.module.css";
 
 const MobalMenu = () => {
