@@ -1,0 +1,24 @@
+.Navlinks {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+
+    a {
+        text-decoration: none;
+        color: #292F36;
+        font-size: 1.25rem;
+    }
+
+    a:hover {
+        color: #C76904;
+        transition: 0.5s all ease;
+    }
+}
+
+@media screen and (min-width: 929px){
+    .Nav {
+        display: none;
+        top: 100px;
+    }
+}

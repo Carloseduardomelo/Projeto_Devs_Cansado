@@ -1,0 +1,50 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1210px;
+}
+
+.Logo {
+    display: flex;
+    gap: 0.5rem;
+
+    h1 {
+        color: #292F36;
+        font-size: 2.5rem;
+    }
+}
+
+.Image {
+    width: 2.5rem;
+}
+
+.Navlinks {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+
+    a {
+        text-decoration: none;
+        color: #292F36;
+        font-size: 1.25rem;
+    }
+
+    a:hover {
+        color: #C76904;
+        transition: 0.5s all ease;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .Nav {
+        display: none;
+    }
+}
