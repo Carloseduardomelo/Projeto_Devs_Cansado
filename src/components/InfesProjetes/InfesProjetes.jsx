@@ -3,29 +3,29 @@ import Vector from "../../assets/Vector.svg"
 
 const InfesProjetes = () => {
   return (
-    <div className={style}>
-      <section className={style}>
-        <p>Project Plan</p>
-        <p>There are many variations of the passages of lorem Ipsum from available, majority.</p>
-        <p>
+    <div className={style.InfesAll}>
+      <section className={style.sections}>
+        <p className={style.sectionsTitle}>Project Plan</p>
+        <p className={style.sectionsP}>There are many variations of the passages of lorem Ipsum from available, majority.</p>
+        <p className={style.sectionsRedire}>
         Read More
           <span><img src={Vector} alt="" /></span>
         </p>
       </section>
-      <section className={style}>
-      <p>Interior Work</p>
-        <p>There are many variations of the passages of lorem Ipsum from 
+      <section className={style.sections}>
+      <p className={style.sectionsTitle}>Interior Work</p>
+        <p className={style.sectionsP}>There are many variations of the passages of lorem Ipsum from 
 available, majority.</p>
-        <p>
+        <p className={style.sectionsRedire}>
         Read More
           <span><img src={Vector} alt="" /></span>
         </p>
       </section>
-      <section className={style}>
-      <p>Realization</p>
-        <p>There are many variations of the passages of lorem Ipsum from 
+      <section className={style.sections}>
+      <p className={style.sectionsTitle}>Realization</p>
+        <p className={style.sectionsP}>There are many variations of the passages of lorem Ipsum from 
 available, majority.</p>
-        <p>
+        <p className={style.sectionsRedire}>
         Read More
           <span><img src={Vector} alt="" /></span>
         </p>
