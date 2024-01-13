@@ -6,6 +6,7 @@ import MobalMenu from "../MobalMenu/MobalMenu";
 import style from "./header.module.css";
 
 const Header = () => {
+
   return (
       <div className={style.Header}>
         <div className={style.Page}>
