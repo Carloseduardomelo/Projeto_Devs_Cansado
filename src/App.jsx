@@ -1,10 +1,7 @@
 import Main from './components/main/main'
 import './App.css'
-<<<<<<< HEAD
-// import Footer from './components/Footer/Footer'
-=======
->>>>>>> b826c2021a784466b96da1f86c7c232c2a18c024
 import Header from './components/header/header'
+import Footer from './components/footer/footer'
 
 function App() {
 
@@ -12,10 +9,7 @@ function App() {
     <div className='app'>
       <Header />
       <Main />
-<<<<<<< HEAD
-      {/* <Footer /> */}
-=======
->>>>>>> b826c2021a784466b96da1f86c7c232c2a18c024
+      <Footer />
     </div>
   )
 }

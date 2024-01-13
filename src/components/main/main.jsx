@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-const Main = () => {
-    return (
-        <div>
-            
-=======
 import style from './main.module.css'
 
 const Main = () => {
@@ -16,7 +10,6 @@ const Main = () => {
                     <a href="#">Get Started</a>
                 </button>
             </section>
->>>>>>> b826c2021a784466b96da1f86c7c232c2a18c024
         </div>
     );
 };
