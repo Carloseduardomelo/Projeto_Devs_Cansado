@@ -1,6 +1,20 @@
-.Navlinks {
+ .Page {
+    display: none;
+ }
+
+.Icon {
+    display: flex;
+    background: transparent;
+    border: none;
+    color: #292F36;
+    font-size: 1.7rem;
+    gap: 20px;
+}
+
+ .Navlinks {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 1rem;
     list-style: none;
     position: fixed;
@@ -12,7 +26,7 @@
     a {
         text-decoration: none;
         color: #292F36;
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     a:hover {
@@ -25,5 +39,11 @@
     .Nav {
         display: none;
         top: 100px;
+    }
+}
+
+@media screen and (max-width: 929px){
+    .Page {
+        display: block;
     }
 }
