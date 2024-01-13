@@ -13,6 +13,7 @@ function App() {
     <div className='app'>
       <Header />
       <Main />
+      <Footer />
 
     </div>
   )
