@@ -13,7 +13,7 @@
   justify-content: center;
   gap: 101px;
 
-  width: 1210px;
+  width: 100vw;
 }
 
 .inproviso {
@@ -189,3 +189,26 @@
 .East{
     line-height: 150%;
 }
+
+
+@media (max-width: 1200px) and (min-width: 375px){
+    .divAll{
+        display: grid;
+        place-items: center;
+        place-content: start;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(50px, auto);
+    }
+    .sectionLink{
+        height: 100%;
+        align-items: center;
+        justify-content: start;
+    }
+    .established{
+        text-align: center;
+    }
+
+    .Contact{
+        height: 100%;
+    }
+  }
