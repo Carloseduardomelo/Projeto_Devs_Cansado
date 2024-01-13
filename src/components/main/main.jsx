@@ -1,4 +1,5 @@
 import InfesProjetes from "../InfesProjetes/InfesProjetes";
+import PeoplesAbout from "../PeoplesAbout/PeoplesAbout";
 import style from "./main.module.css";
 
 const Main = () => {
@@ -15,6 +16,7 @@ const Main = () => {
         </button>
       </section>
       <InfesProjetes />
+      <PeoplesAbout />
     </div>
   );
 };
