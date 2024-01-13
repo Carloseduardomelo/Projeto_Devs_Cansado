@@ -3,7 +3,7 @@ import Vector from "../../assets/Vector.svg";
 
 const InfesProjetes = () => {
   return (
-    <div className={style.full}>
+
       <div className={style.InfesAll}>
         <section className={style.sections}>
           <p className={style.sectionsTitle}>Project Plan</p>
@@ -45,7 +45,6 @@ const InfesProjetes = () => {
           </p>
         </section>
       </div>
-    </div>
   );
 };
 

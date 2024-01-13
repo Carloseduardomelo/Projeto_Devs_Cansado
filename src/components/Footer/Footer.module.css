@@ -191,7 +191,7 @@
 }
 
 
-@media (max-width: 1200px) and (min-width: 375px){
+@media (max-width: 1200px) and (min-width: 30px){
     .divAll{
         display: grid;
         place-items: center;
