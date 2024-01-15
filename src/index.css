@@ -5,7 +5,14 @@
     outline: 0;
 }
 
+<<<<<<< HEAD
 body{
     max-width: 1920px;
     width: 1210px;
+=======
+<<<<<<< HEAD
+    overflow-x: hidden;
+=======
+>>>>>>> 5be4fa95c8bd35404fb042888f71ebfeaecaf278
+>>>>>>> 2640a3f4dfa90baf06019170e3e536fd25ec7ab1
 }

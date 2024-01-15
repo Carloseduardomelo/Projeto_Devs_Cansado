@@ -1,5 +1,26 @@
 .Box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Infors {
   width: 75.625rem;
   height: 42.4375rem;
   flex-shrink: 0;
+  background: #d8a876;
+  border-radius: 4rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  color: #fff;
+  font-family: DM Serif Display;
+  font-size: 3.125rem;
+  font-weight: 400;
+  letter-spacing: 0.0625rem;
 }
