@@ -1,3 +1,4 @@
+import FollowOurProjects from "../FollowOurProjects/FollowOurProjects";
 import InfesProjetes from "../InfesProjetes/InfesProjetes";
 import PeoplesAbout from "../PeoplesAbout/PeoplesAbout";
 import style from "./main.module.css";
@@ -17,6 +18,7 @@ const Main = () => {
       </section>
       <InfesProjetes />
       <PeoplesAbout />
+      <FollowOurProjects />
     </div>
   );
 };
