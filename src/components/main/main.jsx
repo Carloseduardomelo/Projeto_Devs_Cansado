@@ -1,5 +1,6 @@
 import FollowOurProjects from "../FollowOurProjects/FollowOurProjects";
 import InfesProjetes from "../InfesProjetes/InfesProjetes";
+import Marcas from "../Marcas/Marcas";
 import PeoplesAbout from "../PeoplesAbout/PeoplesAbout";
 import style from "./main.module.css";
 
@@ -18,6 +19,7 @@ const Main = () => {
       </section>
       <InfesProjetes />
       <PeoplesAbout />
+      <Marcas />
       <FollowOurProjects />
     </div>
   );
