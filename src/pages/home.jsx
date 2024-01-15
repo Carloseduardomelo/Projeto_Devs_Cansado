@@ -1,9 +1,10 @@
-import ArticleNews from "../components/Article&News/Article&News";
-import Dates from "../components/Dates/Dates";
-import FollowOurProjects from "../components/FollowOurProjects/FollowOurProjects";
-import InfesProjetes from "../components/InfesProjetes/InfesProjetes";
-import Marcas from "../components/Marcas/Marcas";
-import PeoplesAbout from "../components/PeoplesAbout/PeoplesAbout";
+import ArticleNews from "../components/Page_one/Article&News/Article&News";
+import Bedroon from "../components/Page_one/Bedroon/Bedroon";
+import Dates from "../components/Page_one/Dates/Dates";
+import FollowOurProjects from "../components/Page_one/FollowOurProjects/FollowOurProjects";
+import InfesProjetes from "../components/Page_one/InfesProjetes/InfesProjetes";
+import Marcas from "../components/Page_one/Marcas/Marcas";
+import PeoplesAbout from "../components/Page_one/PeoplesAbout/PeoplesAbout";
 
 import style from "./home.module.css";
 
@@ -16,6 +17,7 @@ const Home = () => {
       <FollowOurProjects />
       <Dates />
       <ArticleNews />
+      <Bedroon />
     </div>
   );
 };

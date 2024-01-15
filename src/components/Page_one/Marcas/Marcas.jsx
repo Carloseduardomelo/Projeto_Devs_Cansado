@@ -1,7 +1,7 @@
-import Frame from "../../assets/Frame.png"
-import Frame02 from "../../assets/FrameBe.png"
-import Frame03 from "../../assets/FrameCompli.png"
-import Frame04 from "../../assets/FramePates.png"
+import Frame from "../../../assets/Frame.png"
+import Frame02 from "../../../assets/FrameBe.png"
+import Frame03 from "../../../assets/FrameCompli.png"
+import Frame04 from "../../../assets/FramePates.png"
 
 
 const Marcas = () => {

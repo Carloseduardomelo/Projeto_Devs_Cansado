@@ -1,8 +1,8 @@
 import style from "./Article&News.module.css";
 
-import Cozinha1 from "../../assets/cozinha1.svg";
-import Cozinha2 from "../../assets/cozinha2.svg";
-import Cozinha3 from "../../assets/cozinha3.svg";
+import Cozinha1 from "../../../assets/cozinha1.svg";
+import Cozinha2 from "../../../assets/cozinha2.svg";
+import Cozinha3 from "../../../assets/cozinha3.svg";
 
 import { BsChevronRight } from "react-icons/bs";
 

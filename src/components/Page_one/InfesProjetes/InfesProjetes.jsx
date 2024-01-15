@@ -1,5 +1,5 @@
 import style from "./InfesProjetes.module.css";
-import Vector from "../../assets/Vector.svg";
+import Vector from "../../../assets/Vector.svg";
 
 const InfesProjetes = () => {
   return (
