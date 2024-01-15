@@ -1,23 +1,24 @@
 .mainTitle {
-    color: white,
+  color: white;
 }
 
 .Page {
-  max-width: 1210px;
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  background-image: url('../../assets/Rectangle.png');
-  background-size: cover;
-  background-position: center;
-  border-top-left-radius: 100px;
-  border-bottom-right-radius: 100px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.Page_title {
+  position: absolute;
+  top: 10rem;
+  left: 30rem;
+  z-index: 1;
 }
 
 .Page_title {
   color: #fff;
-  padding: 5rem;
 }
 
 .Page_title h1 {
@@ -36,7 +37,7 @@
   align-items: center;
   margin-top: 20px;
   padding: 1rem 2rem;
-  background-color: #CDA274;
+  background-color: #cda274;
   border-radius: 18px;
   border: none;
 }
