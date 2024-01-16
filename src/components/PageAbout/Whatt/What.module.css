@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;1,600&display=swap");
+
+.divAll {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.WhatTitleBox {
+  display: flex;
+  width: 751px;
+  flex-direction: column;
+  align-items: center;
+  gap: 34px;
+  color: #292f36;
+
+  border: 2px solid black;
+  border-top: none;
+  border-bottom: none;
+}
+.WhatTitlePrincinpal {
+  width: 751px;
+  color: #292f36;
+  text-align: center;
+  font-family: "DM Serif Text";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 43.75px */
+  letter-spacing: 0.7px;
+}
+
+.WhatDivisor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.WhatSubTitle {
+  display: flex;
+  width: 209px;
+  height: 39.246px;
+  flex-direction: column;
+  justify-content: center;
+  color: #4d5053;
+  text-align: center;
+  font-family: "Jost";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 37.5px */
+  letter-spacing: 0.25px;
+}
+
+.Whatireito {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.WhatEsquerda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse; 
+}
+
+.WhatBoxSegundaParte {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 41px;
+}
+.WhatBoxSegundaParte02{
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 41px;
+  padding-left: 50px;
+}
+
+.WhatTilteSEgundaParte {
+  width: 275px;
+  color: #292f36;
+  font-family: "DM Serif Text";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 62.5px */
+  letter-spacing: 1px;
+}
+
+.WhatContext {
+  width: 450px;
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 33px */
+  letter-spacing: 0.22px;
+}
+
+.WhatButton {
+  display: flex;
+  padding: 26px 41px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 18px;
+  background: #292f36;
+  box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+
+  color: #FFFFFF;
+}

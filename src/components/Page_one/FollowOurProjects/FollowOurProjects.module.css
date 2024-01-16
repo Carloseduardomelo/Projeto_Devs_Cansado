@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap");
+
+.DivPrincipal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 150px;
+
+  max-width: 1210px;
+}
+
+.Title {
+  display: flex;
+  width: 737px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.TitleH2 {
+  color: #292f36;
+  text-align: center;
+  font-family: "DM Serif Text";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 75px */
+  letter-spacing: 1.2px;
+}
+
+.TitleP {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  color: #4d5053;
+  text-align: center;
+  font-family: "Jost";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 42px */
+  letter-spacing: 0.28px;
+}
+
+.gap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  max-width: 1210px;
+  width: 100%;
+}
+
+.img {
+  display: flex;
+  gap: 120px;
+}
+
+.infsHosp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.divisor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.titleImg {
+  color: #292f36;
+  font-family: "DM Serif Text";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 31.25px */
+  letter-spacing: 0.5px;
+}
+
+.Categoria{
+  color: #4D5053;
+font-family: Jost;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 33px */
+letter-spacing: 0.22px;
+}

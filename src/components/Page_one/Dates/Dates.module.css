@@ -1,0 +1,36 @@
+.Barra {
+  width: 0.0625rem;
+  height: 8.125rem;
+  background: #cda274;
+}
+
+.Datas {
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h2 {
+    color: #cda274;
+    font-family: DM Serif Display;
+    font-size: 5.3125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 6.64063rem */
+    letter-spacing: 0.10625rem;
+  }
+  p {
+    color: #4d5053;
+    font-family: Jost;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 2.0625rem */
+    letter-spacing: 0.01375rem;
+  }
+}

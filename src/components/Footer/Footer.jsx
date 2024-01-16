@@ -50,11 +50,17 @@ const Footer = () => {
       <section className={style.Contact}>
         <p className={style.ContactTitle}>Contact</p>
         <div className={style.ContactDiv}>
+<<<<<<< HEAD
           <p className={style.East}>
             55 East Birchwood Ave. Brooklyn, New York 11201
             </p>
           <p>contact@selhono.com</p>
           <p>(123) 456 - 7890</p>
+=======
+          <p className={style.East}>55 East Birchwood Ave. Brooklyn, New York 11201</p>
+          <p className={style.textCenter}>contact@selhono.com</p>
+          <p className={style.textCenter}>(123) 456 - 7890</p>
+>>>>>>> f7f2b0f129c33ad5a962e9a1ecc5f3246d4428fc
         </div>
       </section>
     </div>
