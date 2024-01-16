@@ -1,5 +1,6 @@
-import style from "./Bedroon.module.css";
 import { GoArrowRight } from "react-icons/go";
+
+import style from "./Bedroon.module.css";
 
 const Bedroon = () => {
   return (

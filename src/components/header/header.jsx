@@ -16,13 +16,13 @@ const Header = () => {
         <nav className={style.Nav}>
           <ul className={style.Navlinks}>
             <li>
-              <a href="#">Home</a>
+              <a href="/home">Home</a>
             </li>
             <li>
-              <a href="#">Pages</a>
+              <a href="/about">Pages</a>
             </li>
             <li>
-              <a href="#">Services</a>
+              <a href="/Services">Services</a>
             </li>
             <li>
               <a href="#">Project</a>

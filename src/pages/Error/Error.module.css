@@ -1,0 +1,53 @@
+.Box {
+  display: flex;
+  z-index: 1;
+}
+
+.text_error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 500px;
+  h2 {
+    color: #cda274;
+    font-family: DM Serif Display;
+    font-size: 15.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 19.53125rem */
+  }
+
+  p {
+    color: #292f36;
+    font-family: DM Serif Display;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 3.28125rem */
+    letter-spacing: 0.02188rem;
+  }
+
+  button {
+    color: #fff;
+    text-align: center;
+    font-family: Jost;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 1.40625rem */
+    letter-spacing: 0.0225rem;
+
+    display: flex;
+    padding: 1.625rem 3.375rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+
+    border-radius: 1.125rem;
+    background: #292f36;
+    box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+  }
+}

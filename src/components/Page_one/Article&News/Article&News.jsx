@@ -8,16 +8,16 @@ import { BsChevronRight } from "react-icons/bs";
 
 const ArticleNews = () => {
   return (
-    <section className={style.Article}>
-      <section className={style.News}>
+    <div className={style.Article}>
+      <div className={style.News}>
         <h2>Article & News</h2>
         <p>
           It is a long established fact that a reader will be distracted by the
           of readable content of a page when lookings at its layouts the points
           of using.
         </p>
-      </section>
-      <section className={style.Box}>
+      </div>
+      <div className={style.Box}>
         <div className={style.Box_div_um}>
           <img src={Cozinha1} />
           <h4>Let´s Get Solution For Building Construction Work</h4>
@@ -42,8 +42,8 @@ const ArticleNews = () => {
             <button><BsChevronRight /></button>
           </div>
         </div>
-      </section>
-    </section>
+      </div>
+    </div>
   );
 };
 

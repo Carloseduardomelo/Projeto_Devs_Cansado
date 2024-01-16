@@ -1,8 +1,11 @@
 .Quarto {
   background-image: url(../../../assets/QuartoDeFundo.svg);
+  background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
-  background-repeat: no-repeat;
+
+  flex-shrink: 0;
+  margin-top: 200px;
 }
 
 .Caixa {
