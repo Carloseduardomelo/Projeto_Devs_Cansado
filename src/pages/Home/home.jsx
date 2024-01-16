@@ -7,20 +7,14 @@ import Marcas from "../../components/Page_one/Marcas/Marcas";
 import PeoplesAbout from "../../components/Page_one/PeoplesAbout/PeoplesAbout";
 import Header from "../../components/header/header";
 import Footer from "../../components/Footer/Footer";
-
 import style from "./home.module.css";
-import Header from "../../components/header/header";
-import Footer from "../../components/Footer/Footer";
 import Intro from "../../components/Intro/intro";
 
 const Home = () => {
   return (
     <div className={style.caixa_home}>
       <Header />
-<<<<<<< HEAD
-=======
       <Intro />
->>>>>>> c94eff7a1d101c514137ffecde642d5454dd2692
       <InfesProjetes />
       <PeoplesAbout />
       <Marcas />
