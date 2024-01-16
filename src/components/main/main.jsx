@@ -1,5 +1,5 @@
 import style from "./main.module.css";
-import Home from "../../pages/home";
+import Home from "../../pages/Home/home.jsx";
 
 const Main = () => {
   return (
