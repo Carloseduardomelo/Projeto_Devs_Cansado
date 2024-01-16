@@ -3,10 +3,17 @@
   height: 8.125rem;
   background: #cda274;
 }
+.Box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 200px;
+}
 
 .Datas {
   display: flex;
   justify-content: space-between;
+  gap: 4.75rem;
 
   div {
     display: flex;

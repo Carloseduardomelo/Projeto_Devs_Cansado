@@ -1,9 +1,11 @@
 import style from "./InfesProjetes.module.css";
 import Vector from "../../../assets/Vector.svg";
 
+import { GoArrowRight } from "react-icons/go";
+
 const InfesProjetes = () => {
   return (
-
+    <div className={style.Box}>
       <div className={style.InfesAll}>
         <section className={style.sections}>
           <p className={style.sectionsTitle}>Project Plan</p>
@@ -12,7 +14,7 @@ const InfesProjetes = () => {
             available, majority.
           </p>
           <p className={style.sectionsRedire}>
-            Read More
+            Read More <GoArrowRight />
             <span>
               <img src={Vector} alt="" />
             </span>
@@ -25,7 +27,7 @@ const InfesProjetes = () => {
             available, majority.
           </p>
           <p className={style.sectionsRedire}>
-            Read More
+            Read More <GoArrowRight />
             <span>
               <img src={Vector} alt="" />
             </span>
@@ -38,13 +40,14 @@ const InfesProjetes = () => {
             available, majority.
           </p>
           <p className={style.sectionsRedire}>
-            Read More
+            Read More <GoArrowRight />
             <span>
               <img src={Vector} alt="" />
             </span>
           </p>
         </section>
       </div>
+    </div>
   );
 };
 

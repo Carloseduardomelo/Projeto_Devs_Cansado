@@ -5,13 +5,15 @@ import FollowOurProjects from "../../components/Page_one/FollowOurProjects/Follo
 import InfesProjetes from "../../components/Page_one/InfesProjetes/InfesProjetes";
 import Marcas from "../../components/Page_one/Marcas/Marcas";
 import PeoplesAbout from "../../components/Page_one/PeoplesAbout/PeoplesAbout";
-import Glide from "@glidejs/glide";
+import Header from "../../components/header/header";
+import Footer from "../../components/Footer/Footer";
 
 import style from "./home.module.css";
 
-const Home = () => {  
+const Home = () => {
   return (
     <div className={style.caixa_home}>
+      <Header />
       <InfesProjetes />
       <PeoplesAbout />
       <Marcas />
@@ -19,6 +21,7 @@ const Home = () => {
       <Dates />
       <ArticleNews />
       <Bedroon />
+      <Footer />
     </div>
   );
 };

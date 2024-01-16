@@ -1,11 +1,8 @@
-import * as React from "react";
-import { createRoot } from "react-dom/client";
-import {
-  createBrowserRouter,
-  Link,
-} from "react-router-dom";
+import { createBrowserRouter, Route } from "react-router-dom";
 import Home from "../pages/Home/home";
 import Abouts from "../pages/Abouts/Abouts";
+
+import Error from "../pages/Error/Error";
 
 export const router = createBrowserRouter([
   {
@@ -16,4 +13,10 @@ export const router = createBrowserRouter([
     path: "/about",
     element: <Abouts />,
   },
+  {
+    path: "/error",
+    element: <Error />,
+  },
+
+  <Route key="404" path="*" element={<Error />} />,
 ]);

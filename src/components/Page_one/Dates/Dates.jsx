@@ -2,8 +2,8 @@ import style from "./Dates.module.css";
 
 const Dates = () => {
   return (
-    <div>
-      <section className={style.Datas}>
+    <div className={style.Box}>
+      <div className={style.Datas}>
         <div>
           <h2>12</h2>
           <p>Year of Experience</p>
@@ -23,7 +23,7 @@ const Dates = () => {
           <h2>583</h2>
           <p>Happy Customers</p>
         </div>
-      </section>
+      </div>
     </div>
   );
 };

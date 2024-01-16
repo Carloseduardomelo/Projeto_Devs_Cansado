@@ -1,7 +1,9 @@
-.caixa_home {
+.Box {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
+    div {
+        margin: 200px;
+    }
 }
