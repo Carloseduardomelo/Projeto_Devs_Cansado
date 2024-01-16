@@ -1,0 +1,64 @@
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.Infors {
+  display: flex;
+  width: 1205px;
+  flex-direction: column;
+  align-items: center;
+  gap: 88px;
+
+  .Div_Infor_Menores {
+    display: flex;
+    width: 1158px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 42px;
+  }
+
+  .Div_Infor_Maiores {
+    display: flex;
+    width: 1158px;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+  }
+}
+
+.Infor {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.25rem;
+
+  h2 {
+    color: #292f36;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 25px;
+    line-height: 125%; /* 31.25px */
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+    font-size: 18px;
+    font-family: Jost;
+    font-weight: 600;
+    line-height: 125%; /* 22.5px */
+    letter-spacing: 0.36px;
+  }
+}
+
+.Infor:hover {
+  h2,
+  p,
+  a {
+    color: #c76904;
+  }
+}
