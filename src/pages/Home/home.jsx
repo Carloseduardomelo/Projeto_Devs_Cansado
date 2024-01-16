@@ -8,10 +8,15 @@ import PeoplesAbout from "../../components/Page_one/PeoplesAbout/PeoplesAbout";
 import Glide from "@glidejs/glide";
 
 import style from "./home.module.css";
+import Header from "../../components/header/header";
+import Footer from "../../components/Footer/Footer";
+import Intro from "../../components/Intro/intro";
 
-const Home = () => {  
+const Home = () => {
   return (
     <div className={style.caixa_home}>
+      <Header />
+      <Intro />
       <InfesProjetes />
       <PeoplesAbout />
       <Marcas />
@@ -19,6 +24,7 @@ const Home = () => {
       <Dates />
       <ArticleNews />
       <Bedroon />
+      <Footer />
     </div>
   );
 };
