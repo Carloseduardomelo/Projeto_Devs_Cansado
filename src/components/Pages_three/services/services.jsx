@@ -1,4 +1,5 @@
 import Entrada from "../../../assets/Entrada.svg"
+import Detalhe from "../Detalhe/Detalhe"
 import Infors from "../Infors/Infors"
 
 const Beneficios = () => {
@@ -6,6 +7,7 @@ const Beneficios = () => {
     <>
     <img src={Entrada} alt="" />
     <Infors />
+    <Detalhe />
     </>
   )
 }
