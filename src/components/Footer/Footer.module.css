@@ -29,7 +29,7 @@
   height: 188px;
   display: flex;
   align-items: start;
-  justify-content: start;
+  justify-content: end;
   flex-direction: column;
   gap: 31px;
 }
@@ -49,7 +49,7 @@
 .selhonoTitle {
   height: 0;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
 
   text-transform: uppercase;
@@ -80,8 +80,10 @@
 .icons {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   gap: 54px;
+
+  margin-top: 0;
 }
 
 .pages {
@@ -107,7 +109,7 @@
 .pagesDiv {
   display: flex;
   align-items: start;
-  justify-content: center;
+  justify-content: end;
   flex-direction: column;
   color: #4d5053;
 

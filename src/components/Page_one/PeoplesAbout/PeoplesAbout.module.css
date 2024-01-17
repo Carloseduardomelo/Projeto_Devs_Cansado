@@ -71,7 +71,6 @@
 .namePeople {
   display: flex;
   width: 257px;
-  align-items: center;
   gap: 23px;
 
   img{
