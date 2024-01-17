@@ -7,8 +7,9 @@ import Marcas from "../../components/Page_one/Marcas/Marcas";
 import PeoplesAbout from "../../components/Page_one/PeoplesAbout/PeoplesAbout";
 import Header from "../../components/header/header";
 import Footer from "../../components/Footer/Footer";
+import Intro from "../../components/Page_one/Intro/intro";
+
 import style from "./home.module.css";
-import Intro from "../../components/Intro/intro";
 
 const Home = () => {
   return (
